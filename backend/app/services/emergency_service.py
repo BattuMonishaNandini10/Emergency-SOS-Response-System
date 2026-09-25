@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 
-from app.config import CASES_TABLE
-from app.database.dynamodb import get_table
+from backend.app.config import CASES_TABLE
+from backend.app.database.dynamodb import get_table
 
 
 def get_cases_table():

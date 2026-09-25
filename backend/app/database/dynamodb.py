@@ -1,6 +1,6 @@
 import boto3
 
-from app.config import AWS_REGION
+from backend.app.config import AWS_REGION
 
 
 dynamodb = boto3.resource(
